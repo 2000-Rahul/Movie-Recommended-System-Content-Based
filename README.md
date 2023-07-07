@@ -6,8 +6,9 @@
 
 # Description
 - This model is build to recommend movies on the content basis.
-- Dataset is preprocessed and cleaned in python.
-- Datasets used in this project have two tables, specific attributes are chosen from both datasets which help in recommendation of movies like title,genres etc. By joining those attributes tags are created.
+- Dataset is preprocessed and cleaned in python, pandas library is used to read the data in python, and import data in data frame format.
+- Shape, info and null values are checked of both data frames.
+- Datasets used in this project have two data frames, specific attributes are chosen from both data frames which help in recommendation of movies like title,genres etc. By joining those attributes tags are created.
 - **PorterStemmer** The Porter Stemming algorithm (or Porter Stemmer) is used to remove the suffixes from an English word and obtain its stem which becomes very useful in the field of Information Retrieval (IR). This process reduces the number of terms kept by an IR system which will be advantageous both in terms of space and time complexity.
 - **CountVectorizer** It is a great tool provided by the scikit-learn library in Python. It is used to transform a given text into a vector on the basis of the frequency (count) of each word that occurs in the entire text. This is helpful when we have multiple such texts, and we wish to convert each word in each text into vectors.
 - **cosine similarity** It measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.
